@@ -1,0 +1,50 @@
+#container {
+  text-align: center;
+}
+#boxContainer {
+  text-align: center;
+}
+
+#row1, #row2, #row3, #row4, #boxPic {
+  position: relative;
+}
+
+#row2, #row3, #row4 {
+  margin-top: -20%;
+}
+
+
+.crayon {
+  width: 5%;
+  max-width: 50px;
+}
+
+.crayon:hover {
+  -ms-transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  z-index: -10;
+}
+
+#bg1 {
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  margin-top: -1%;
+}
+
+#boxPic {
+  margin-top: -15%;
+  width: 100%;
+  max-width: 900px;
+}
+
+#colorInfo {
+  position: relative;
+  background-color: orange;
+  margin-top: -40%;
+}
+
+.words {
+  display: none;
+}
