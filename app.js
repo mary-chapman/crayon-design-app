@@ -7,7 +7,7 @@ function onHover(crayon, text) {
     }
   );
 }
-onHover("#blue", ".blue");
+onHover("#apricot", ".apricot");
 
 /*
 $("#green").mouseover(function(){

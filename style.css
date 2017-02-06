@@ -1,5 +1,9 @@
 #container {
   text-align: center;
+  margin-top: 2%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #boxContainer {
   text-align: center;
@@ -9,8 +13,9 @@
   position: relative;
 }
 
+
 #row2, #row3, #row4 {
-  margin-top: -20%;
+  margin-top: -18%;
 }
 
 
@@ -20,9 +25,10 @@
 }
 
 .crayon:hover {
-  -ms-transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+  -ms-transform: translateY(-15px);
+  -moz-transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
   z-index: -10;
 }
 
@@ -41,8 +47,13 @@
 
 #colorInfo {
   position: relative;
-  background-color: orange;
-  margin-top: -40%;
+  color: #0a752e;
+  margin-top: -50%;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+}
+.title {
+  font-size: 2.2em;
 }
 
 .words {
