@@ -1,113 +1,697 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700" rel="stylesheet">
-    <link rel='stylesheet' href='style.css' />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+    <link rel="stylesheet" media='screen and (max-width: 760px)' href="style-phone.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 761px)' href="style.css"/>
 
   </head>
   <body>
 
-
       <div id="container">
-
-
 
       <div id="row1">
       <img id="apricot" class="crayon" src="images/crayons/1-apricot.png" />
-      <img id="green" class="crayon" src="images/crayons/2-asparagus.png" />
-      <img class="crayon" src="images/crayons/3-bittersweet.png" />
-      <img class="crayon" src="images/crayons/4-black.png" />
-      <img class="crayon" src="images/crayons/5-blue.png" />
-      <img class="crayon" src="images/crayons/6-blue-green.png" />
-      <img class="crayon" src="images/crayons/7-blue-violet.png" />
-      <img class="crayon" src="images/crayons/8-brick-red.png" />
-      <img class="crayon" src="images/crayons/9-brown.png" />
-      <img class="crayon" src="images/crayons/10-burnt-orange.png" />
-      <img class="crayon" src="images/crayons/11-burnt-sienna.png" />
-      <img class="crayon" src="images/crayons/12-cadet-blue.png" />
-      <img class="crayon" src="images/crayons/13-carnation-pink.png" />
-      <img class="crayon" src="images/crayons/14-cerulen.png" />
-      <img class="crayon" src="images/crayons/15-chesnut.png" />
-      <img class="crayon" src="images/crayons/16-cornflower.png" />
+      <img id="asparagus" class="crayon" src="images/crayons/2-asparagus.png" />
+      <img id="bittersweet" class="crayon" src="images/crayons/3-bittersweet.png" />
+      <img id="black" class="crayon" src="images/crayons/4-black.png" />
+      <img id="blue" class="crayon" src="images/crayons/5-blue.png" />
+      <img id="blue-green" class="crayon" src="images/crayons/6-blue-green.png" />
+      <img id="blue-violet" class="crayon" src="images/crayons/7-blue-violet.png" />
+      <img id="brick-red" class="crayon" src="images/crayons/8-brick-red.png" />
+      <img id="brown" class="crayon" src="images/crayons/9-brown.png" />
+      <img id="burnt-orange" class="crayon" src="images/crayons/10-burnt-orange.png" />
+      <img id="burnt-sienna" class="crayon" src="images/crayons/11-burnt-sienna.png" />
+      <img id="cadet-blue" class="crayon" src="images/crayons/12-cadet-blue.png" />
+      <img id="carnation-pink" class="crayon" src="images/crayons/13-carnation-pink.png" />
+      <img id="cerulen" class="crayon" src="images/crayons/14-cerulen.png" />
+      <img id="chesnut" class="crayon" src="images/crayons/15-chesnut.png" />
+      <img id="cornflower" class="crayon" src="images/crayons/16-cornflower.png" />
     </div>
-
-
-
       <div id=row2>
-        <img class="crayon" src="images/crayons/17-dandelion.png" />
-        <img class="crayon" src="images/crayons/18-forest-green.png" />
-        <img class="crayon" src="images/crayons/19-gold.png" />
-        <img class="crayon" src="images/crayons/20-goldenrod.png" />
-        <img class="crayon" src="images/crayons/21-granny-smith-apple.png" />
-        <img class="crayon" src="images/crayons/22-gray.png" />
-        <img class="crayon" src="images/crayons/23-green.png" />
-        <img class="crayon" src="images/crayons/24-green-yellow.png" />
-        <img class="crayon" src="images/crayons/25-indigo.png" />
-        <img class="crayon" src="images/crayons/26-lavender.png" />
-        <img class="crayon" src="images/crayons/27-macoroni-and-cheese.png" />
-        <img class="crayon" src="images/crayons/28-magenta.png" />
-        <img class="crayon" src="images/crayons/29-mahogany.png" />
-        <img class="crayon" src="images/crayons/30-mauvelous.png" />
-        <img class="crayon" src="images/crayons/31-melon.png" />
-        <img class="crayon" src="images/crayons/32-olive-green.png" />
+        <img id="dandelion" class="crayon" src="images/crayons/17-dandelion.png" />
+        <img id="forest-green" class="crayon" src="images/crayons/18-forest-green.png" />
+        <img id="gold" class="crayon" src="images/crayons/19-gold.png" />
+        <img id="goldenrod" class="crayon" src="images/crayons/20-goldenrod.png" />
+        <img id="granny-smith-apple" class="crayon" src="images/crayons/21-granny-smith-apple.png" />
+        <img id="gray" class="crayon" src="images/crayons/22-gray.png" />
+        <img id="green" class="crayon" src="images/crayons/23-green.png" />
+        <img id="green-yellow" class="crayon" src="images/crayons/24-green-yellow.png" />
+        <img id="indigo" class="crayon" src="images/crayons/25-indigo.png" />
+        <img id="lavender" class="crayon" src="images/crayons/26-lavender.png" />
+        <img id="macoroni-and-cheese" class="crayon"  src="images/crayons/27-macoroni-and-cheese.png" />
+        <img id="magenta" class="crayon" src="images/crayons/28-magenta.png" />
+        <img id="mahogany" class="crayon" src="images/crayons/29-mahogany.png" />
+        <img id="mauvelous" class="crayon" src="images/crayons/30-mauvelous.png" />
+        <img id="melon" class="crayon" src="images/crayons/31-melon.png" />
+        <img id="olive-green" class="crayon" src="images/crayons/32-olive-green.png" />
       </div>
-
       <div id=row3>
-        <img class="crayon" src="images/crayons/33-orange.png" />
-        <img class="crayon" src="images/crayons/34-orchid.png" />
-        <img class="crayon" src="images/crayons/35-pacific-blue.png" />
-        <img class="crayon" src="images/crayons/36-peach.png" />
-        <img class="crayon" src="images/crayons/37-perwinkle.png" />
-        <img class="crayon" src="images/crayons/38-plum.png" />
-        <img class="crayon" src="images/crayons/39-purple-mountain-majesty.png" />
-        <img class="crayon" src="images/crayons/40-raw-sienna.png" />
-        <img class="crayon" src="images/crayons/41-red.png" />
-        <img class="crayon" src="images/crayons/42-red-orange.png" />
-        <img class="crayon" src="images/crayons/43-red-violet.png" />
-        <img class="crayon" src="images/crayons/44-robins-egg-blue.png" />
-        <img class="crayon" src="images/crayons/45-salmon.png" />
-        <img class="crayon" src="images/crayons/46-scarlett.png" />
-        <img class="crayon" src="images/crayons/47-sea-green.png" />
-        <img class="crayon" src="images/crayons/48-sepia.png" />
+        <img id="orange" class="crayon" src="images/crayons/33-orange.png" />
+        <img id="orchid" class="crayon" src="images/crayons/34-orchid.png" />
+        <img id="pacific-blue" class="crayon" src="images/crayons/35-pacific-blue.png" />
+        <img id="peach" class="crayon" src="images/crayons/36-peach.png" />
+        <img id="perwinkle" class="crayon" src="images/crayons/37-perwinkle.png" />
+        <img id="plum" class="crayon" src="images/crayons/38-plum.png" />
+        <img id="purple-mountain-majesty" class="crayon" src="images/crayons/39-purple-mountain-majesty.png" />
+        <img id="raw-sienna" class="crayon" src="images/crayons/40-raw-sienna.png" />
+        <img id="red" class="crayon" src="images/crayons/41-red.png" />
+        <img id="red-orange" class="crayon" src="images/crayons/42-red-orange.png" />
+        <img id="red-violet" class="crayon" src="images/crayons/43-red-violet.png" />
+        <img id="robins-egg-blue" class="crayon" src="images/crayons/44-robins-egg-blue.png" />
+        <img id="salmon" class="crayon" src="images/crayons/45-salmon.png" />
+        <img id="scarlett" class="crayon" src="images/crayons/46-scarlett.png" />
+        <img id="sea-green" class="crayon" src="images/crayons/47-sea-green.png" />
+        <img id="sepia" class="crayon" src="images/crayons/48-sepia.png" />
       </div>
-
       <div id=row4>
-        <img class="crayon" src="images/crayons/49-silver.png" />
-        <img class="crayon" src="images/crayons/50-sky-blue.png" />
-        <img class="crayon" src="images/crayons/51-spring-green.png" />
-        <img class="crayon" src="images/crayons/52-tan.png" />
-        <img class="crayon" src="images/crayons/53-tickle-me-pink.png" />
-        <img class="crayon" src="images/crayons/54-timberwolf.png" />
-        <img class="crayon" src="images/crayons/55-tumbleweed.png" />
-        <img class="crayon" src="images/crayons/56-turquoise-blue.png" />
-        <img class="crayon" src="images/crayons/57-violet.png" />
-        <img class="crayon" src="images/crayons/58-violet-red.png" />
-        <img class="crayon" src="images/crayons/59-white.png" />
-        <img class="crayon" src="images/crayons/60-wild-strawberry.png" />
-        <img class="crayon" src="images/crayons/61-wisteria.png" />
-        <img class="crayon" src="images/crayons/62-yellow.png" />
-        <img class="crayon" src="images/crayons/63-yellow-green.png" />
-        <img class="crayon" src="images/crayons/64-yellow-orange.png" />
+        <img id="silver" class="crayon" src="images/crayons/49-silver.png" />
+        <img id="sky-blue" class="crayon" src="images/crayons/50-sky-blue.png" />
+        <img id="spring-green" class="crayon" src="images/crayons/51-spring-green.png" />
+        <img id="tan" class="crayon" src="images/crayons/52-tan.png" />
+        <img id="tickle-me-pink" class="crayon" src="images/crayons/53-tickle-me-pink.png" />
+        <img id="timberwolf" class="crayon" src="images/crayons/54-timberwolf.png" />
+        <img id="tumbleweed" class="crayon" src="images/crayons/55-tumbleweed.png" />
+        <img id="turquiose-blue" class="crayon" src="images/crayons/56-turquoise-blue.png" />
+        <img id="violet" class="crayon" src="images/crayons/57-violet.png" />
+        <img id="violet-red" class="crayon" src="images/crayons/58-violet-red.png" />
+        <img id="white" class="crayon" src="images/crayons/59-white.png" />
+        <img id="wild-strawberry" class="crayon" src="images/crayons/60-wild-strawberry.png" />
+        <img id="wisteria" class="crayon" src="images/crayons/61-wisteria.png" />
+        <img id="yellow" class="crayon" src="images/crayons/62-yellow.png" />
+        <img id="yellow-green" class="crayon" src="images/crayons/63-yellow-green.png" />
+        <img id="yellow-orange" class="crayon" src="images/crayons/64-yellow-orange.png" />
       </div>
 
-      <img src="images/box.png" id="boxPic" width=75% />
+      <img src="images/crayon-box.png" id="boxPic" width=75% />
 
       <div id="colorInfo">
         <div class="words apricot">
           <span class="title">apricot</span><br />
-          <span>#FDD9B5 &nbsp; | &nbsp; rgb: 253, 217, 181</span>
+          <span>hex: #FDD9B5 &nbsp; | &nbsp; rgb: 253, 217, 181</span>
+        </div>
+        <div class="words asparagus">
+          <span class="title">asparagus</span><br />
+          <span>hex: #87A9615 &nbsp; | &nbsp; rgb: 135, 169, 107</span>
+        </div>
+        <div class="words bittersweet">
+          <span class="title">bittersweet</span><br />
+          <span>hex: #FD7C6E &nbsp; | &nbsp; rgb: 253, 124, 110</span>
+        </div>
+        <div class="words black">
+          <span class="title">black</span><br />
+          <span>hex: #000000 &nbsp; | &nbsp; rgb: 0, 0, 0</span>
+        </div>
+        <div class="words blue">
+          <span class="title">blue</span><br />
+          <span>hex: #1F75FE &nbsp; | &nbsp; rgb: 31, 117, 254</span>
+        </div>
+        <div class="words blue-green">
+          <span class="title">blue green</span><br />
+          <span>hex: #0D98BA &nbsp; | &nbsp; rgb: 13, 152, 186</span>
+        </div>
+        <div class="words blue-violet">
+          <span class="title">blue violet</span><br />
+          <span>hex: #7366BD &nbsp; | &nbsp; rgb: 115, 102, 189</span>
+        </div>
+        <div class="words brick-red">
+          <span class="title">brick red</span><br />
+          <span>hex: #CB4154 &nbsp; | &nbsp; rgb: 203, 65, 84</span>
+        </div>
+        <div class="words brown">
+          <span class="title">brown</span><br />
+          <span>hex: #B4674D&nbsp; | &nbsp; rgb: 180, 103, 77</span>
+        </div>
+        <div class="words burnt-orange">
+          <span class="title">burnt orange</span><br />
+          <span>hex: #FF7F49 &nbsp; | &nbsp; rgb: 255, 127, 73</span>
+        </div>
+        <div class="words burnt-sienna">
+          <span class="title">burnt sienna</span><br />
+          <span>hex: #EA7E5D &nbsp; | &nbsp; rgb: 234, 126, 93</span>
+        </div>
+        <div class="words cadet-blue">
+          <span class="title">cadet blue</span><br />
+          <span>hex: #B0B7C6 &nbsp; | &nbsp; rgb: 176, 183, 198</span>
+        </div>
+        <div class="words carnation-pink">
+          <span class="title">carnation pink</span><br />
+          <span>hex: #FFAACC &nbsp; | &nbsp; rgb: 255, 170, 204</span>
+        </div>
+        <div class="words cerulen">
+          <span class="title">cerulean</span><br />
+          <span>hex: #1DACD6 &nbsp; | &nbsp; rgb: 29, 172, 214</span>
+        </div>
+        <div class="words chesnut">
+          <span class="title">chesnut</span><br />
+          <span>hex: #BC5D58 &nbsp; | &nbsp; rgb: 188, 93, 88</span>
+        </div>
+        <div class="words cornflower">
+          <span class="title">cornflower</span><br />
+          <span>hex: #9ACEEB &nbsp; | &nbsp; rgb: 154, 206, 235</span>
+        </div>
+        <div class="words dandelion">
+          <span class="title">dandelion</span><br />
+          <span>hex: #FDDB6D &nbsp; | &nbsp; rgb: 253, 219, 109 </span>
+        </div>
+        <div class="words forest-green">
+          <span class="title">forest green</span><br />
+          <span>hex: #6DAE81 &nbsp; | &nbsp; rgb: 109, 174, 129 </span>
+        </div>
+        <div class="words gold">
+          <span class="title">gold</span><br />
+          <span>hex: #E7C697 &nbsp; | &nbsp; rgb: 231, 198, 151</span>
+        </div>
+        <div class="words goldenrod">
+          <span class="title">goldenrod</span><br />
+          <span>hex: #FCD975 &nbsp; | &nbsp; rgb: 252, 217, 117</span>
+        </div>
+        <div class="words granny-smith-apple">
+          <span class="title" style="font-size:1.6em">granny smith apple</span><br />
+          <span>hex: #A8E4A0 &nbsp; | &nbsp; rgb: 168, 228, 160 </span>
+        </div>
+        <div class="words gray">
+          <span class="title">gray</span><br />
+          <span>hex: #95918C &nbsp; | &nbsp; rgb: 149, 145, 140 </span>
+        </div>
+        <div class="words green">
+          <span class="title">green</span><br />
+          <span>hex: #1CAC78 &nbsp; | &nbsp; rgb: 28, 172, 120</span>
+        </div>
+        <div class="words green-yellow">
+          <span class="title">green yellow</span><br />
+          <span>hex: #F0E891 &nbsp; | &nbsp; rgb: 240, 232, 145 </span>
+        </div>
+        <div class="words indigo">
+          <span class="title">indigo</span><br />
+          <span>hex: #5D76CB &nbsp; | &nbsp; rgb: 93, 118, 203 </span>
+        </div>
+        <div class="words lavender">
+          <span class="title">lavender</span><br />
+          <span>hex: #FCB4D5 &nbsp; | &nbsp; rgb: 252, 180, 213 </span>
+        </div>
+        <div class="words macoroni-and-cheese">
+          <span class="title" style="font-size:1.5em">macoroni and cheese</span><br />
+          <span>hex: #FFBD88 &nbsp; | &nbsp; rgb: 255, 189, 136</span>
+        </div>
+        <div class="words magenta">
+          <span class="title">magenta</span><br />
+          <span>hex: #F664AF &nbsp; | &nbsp; rgb: 246, 100, 175</span>
+        </div>
+        <div class="words mahogany">
+          <span class="title">mahogany</span><br />
+          <span>hex: #CD4A4C &nbsp; | &nbsp; rgb: 205, 74, 76 </span>
+        </div>
+        <div class="words mauvelous">
+          <span class="title">mauvelous</span><br />
+          <span>hex: #EF98AA &nbsp; | &nbsp; rgb: 239, 152, 170</span>
+        </div>
+        <div class="words melon">
+          <span class="title">melon</span><br />
+          <span>hex: #FDBCB4 &nbsp; | &nbsp; rgb: 253, 188, 180</span>
+        </div>
+        <div class="words olive-green">
+          <span class="title">olive green</span><br />
+          <span>hex: #BAB86C &nbsp; | &nbsp; rgb: 186, 184, 108 </span>
+        </div>
+        <div class="words orange">
+          <span class="title">orange</span><br />
+          <span>hex: #FF7538 &nbsp; | &nbsp; rgb: 255, 117, 56</span>
+        </div>
+        <div class="words orchid">
+          <span class="title">orchid</span><br />
+          <span>hex: #E6A8D7 &nbsp; | &nbsp; rgb: 230, 168, 215 </span>
+        </div>
+        <div class="words pacific-blue">
+          <span class="title">pacific blue</span><br />
+          <span>hex: #1CA9C9 &nbsp; | &nbsp; rgb: 28, 169, 201</span>
+        </div>
+        <div class="words peach">
+          <span class="title">peach</span><br />
+          <span>hex: #FFCFAB &nbsp; | &nbsp; rgb: 255, 207, 171</span>
+        </div>
+        <div class="words perwinkle">
+          <span class="title">periwinkle</span><br />
+          <span>hex: #C5D0E6 &nbsp; | &nbsp; rgb: 197, 208, 230 </span>
+        </div>
+        <div class="words plum">
+          <span class="title">plum</span><br />
+          <span>hex: #8E4585 &nbsp; | &nbsp; rgb: 142, 69, 133</span>
+        </div>
+        <div class="words purple-mountain-majesty">
+          <span class="title" style="font-size:1.5em">purple mountain majesty</span><br />
+          <span>hex: #9D81BA &nbsp; | &nbsp; rgb: 157, 129, 186</span>
+        </div>
+        <div class="words raw-sienna">
+          <span class="title">raw sienna</span><br />
+          <span>hex: #D68A59 &nbsp; | &nbsp; rgb: 214, 138, 89</span>
+        </div>
+        <div class="words red">
+          <span class="title">red</span><br />
+          <span>hex: #EE204D &nbsp; | &nbsp; rgb: 238, 32 ,77  </span>
+        </div>
+        <div class="words red-orange">
+          <span class="title">red orange</span><br />
+          <span>hex: #FF5349 &nbsp; | &nbsp; rgb: 255, 83, 73</span>
+        </div>
+        <div class="words red-violet">
+          <span class="title">red violet</span><br />
+          <span>hex: #C0448F &nbsp; | &nbsp; rgb: 192, 68, 143</span>
+        </div>
+        <div class="words robins-egg-blue">
+          <span class="title">robin's egg blue</span><br />
+          <span>hex: #1FCECB &nbsp; | &nbsp; rgb: 31, 206, 203</span>
+        </div>
+        <div class="words salmon">
+          <span class="title">salmon</span><br />
+          <span>hex: #FF9BAA &nbsp; | &nbsp; rgb: 255, 155, 170</span>
+        </div>
+        <div class="words scarlett">
+          <span class="title">scarlett</span><br />
+          <span>hex: #FC2847 &nbsp; | &nbsp; rgb: 252, 40, 71</span>
+        </div>
+        <div class="words sea-green">
+          <span class="title">sea green</span><br />
+          <span>hex: #9FE2BF &nbsp; | &nbsp; rgb: 159, 226, 191 </span>
+        </div>
+        <div class="words sepia">
+          <span class="title">sepia</span><br />
+          <span>hex: #A5694F &nbsp; | &nbsp; rgb: 165, 105, 79 </span>
+        </div>
+        <div class="words silver">
+          <span class="title">silver</span><br />
+          <span>hex: #CDC5C2 &nbsp; | &nbsp; rgb: 205, 197, 194 </span>
+        </div>
+        <div class="words sky-blue">
+          <span class="title">sky blue</span><br />
+          <span>hex: #80DAEB &nbsp; | &nbsp; rgb: 128, 218, 235 </span>
+        </div>
+        <div class="words spring-green">
+          <span class="title">spring green</span><br />
+          <span>hex: #ECEABE &nbsp; | &nbsp; rgb: 236, 234, 190 </span>
+        </div>
+        <div class="words tan">
+          <span class="title">tan</span><br />
+          <span>hex: #FAA76C &nbsp; | &nbsp; rgb: 250, 167, 108</span>
+        </div>
+        <div class="words tickle-me-pink">
+          <span class="title">tickle me pink</span><br />
+          <span>hex: #FC89AC &nbsp; | &nbsp; rgb: 252, 137, 172 </span>
+        </div>
+        <div class="words timberwolf">
+          <span class="title">timberwolf</span><br />
+          <span>hex: #DBD7D2 &nbsp; | &nbsp; rgb: 219, 215, 210 </span>
+        </div>
+        <div class="words tumbleweed">
+          <span class="title">tumbleweed</span><br />
+          <span>hex: #DEAA88 &nbsp; | &nbsp; rgb: 222, 170, 136</span>
+        </div>
+        <div class="words turquiose-blue">
+          <span class="title">turquoise blue</span><br />
+          <span>hex: #77DDE7 &nbsp; | &nbsp; rgb: 119, 221, 231</span>
+        </div>
+        <div class="words violet">
+          <span class="title">violet</span><br />
+          <span>hex: #926EAE &nbsp; | &nbsp; rgb: 146, 110, 174</span>
+        </div>
+        <div class="words violet-red">
+          <span class="title">violet red</span><br />
+          <span>hex: #F75394 &nbsp; | &nbsp; rgb: 247, 83, 148 </span>
+        </div>
+        <div class="words white">
+          <span class="title">white</span><br />
+          <span>hex: #FFFFFF &nbsp; | &nbsp; rgb: 255, 255, 255 </span>
+        </div>
+        <div class="words wild-strawberry">
+          <span class="title">wild strawberry</span><br />
+          <span>hex: # &nbsp; | &nbsp; rgb: </span>
+        </div>
+        <div class="words wisteria">
+          <span class="title">wisteria</span><br />
+          <span>hex: # &nbsp; | &nbsp; rgb: </span>
+        </div>
+        <div class="words yellow">
+          <span class="title">yellow</span><br />
+          <span>hex: # &nbsp; | &nbsp; rgb: </span>
+        </div>
+        <div class="words yellow-green">
+          <span class="title">yellow green</span><br />
+          <span>hex: # &nbsp; | &nbsp; rgb: </span>
+        </div>
+        <div class="words yellow-orange">
+          <span class="title">yellow orange</span><br />
+          <span>hex: # &nbsp; | &nbsp; rgb: </span>
         </div>
 
-
-        <p class="words">something goes here</p>
-        <p class="words">something goes here</p>
 
       </div>
 
 
     </div>
+
+    <div id="container-phone">
+
+    <div id="row1">
+    <img id="apricot" class="crayon" src="images/crayons/1-apricot.png" />
+    <img id="asparagus" class="crayon" src="images/crayons/2-asparagus.png" />
+    <img id="bittersweet" class="crayon" src="images/crayons/3-bittersweet.png" />
+    <img id="black" class="crayon" src="images/crayons/4-black.png" />
+    <img id="blue" class="crayon" src="images/crayons/5-blue.png" />
+    <img id="blue-green" class="crayon" src="images/crayons/6-blue-green.png" />
+    <img id="blue-violet" class="crayon" src="images/crayons/7-blue-violet.png" />
+    <img id="brick-red" class="crayon" src="images/crayons/8-brick-red.png" />
+    <img id="brown" class="crayon" src="images/crayons/9-brown.png" />
+    <img id="burnt-orange" class="crayon" src="images/crayons/10-burnt-orange.png" />
+    <img id="burnt-sienna" class="crayon" src="images/crayons/11-burnt-sienna.png" />
+    <img id="cadet-blue" class="crayon" src="images/crayons/12-cadet-blue.png" />
+    <img id="carnation-pink" class="crayon" src="images/crayons/13-carnation-pink.png" />
+    <img id="cerulen" class="crayon" src="images/crayons/14-cerulen.png" />
+    <img id="chesnut" class="crayon" src="images/crayons/15-chesnut.png" />
+    <img id="cornflower" class="crayon" src="images/crayons/16-cornflower.png" />
+  </div>
+    <div id=row2>
+      <img id="dandelion" class="crayon" src="images/crayons/17-dandelion.png" />
+      <img id="forest-green" class="crayon" src="images/crayons/18-forest-green.png" />
+      <img id="gold" class="crayon" src="images/crayons/19-gold.png" />
+      <img id="goldenrod" class="crayon" src="images/crayons/20-goldenrod.png" />
+      <img id="granny-smith-apple" class="crayon" src="images/crayons/21-granny-smith-apple.png" />
+      <img id="gray" class="crayon" src="images/crayons/22-gray.png" />
+      <img id="green" class="crayon" src="images/crayons/23-green.png" />
+      <img id="green-yellow" class="crayon" src="images/crayons/24-green-yellow.png" />
+      <img id="indigo" class="crayon" src="images/crayons/25-indigo.png" />
+      <img id="lavender" class="crayon" src="images/crayons/26-lavender.png" />
+      <img id="macoroni-and-cheese" class="crayon"  src="images/crayons/27-macoroni-and-cheese.png" />
+      <img id="magenta" class="crayon" src="images/crayons/28-magenta.png" />
+      <img id="mahogany" class="crayon" src="images/crayons/29-mahogany.png" />
+      <img id="mauvelous" class="crayon" src="images/crayons/30-mauvelous.png" />
+      <img id="melon" class="crayon" src="images/crayons/31-melon.png" />
+      <img id="olive-green" class="crayon" src="images/crayons/32-olive-green.png" />
+    </div>
+    <div id=row3>
+      <img id="orange" class="crayon" src="images/crayons/33-orange.png" />
+      <img id="orchid" class="crayon" src="images/crayons/34-orchid.png" />
+      <img id="pacific-blue" class="crayon" src="images/crayons/35-pacific-blue.png" />
+      <img id="peach" class="crayon" src="images/crayons/36-peach.png" />
+      <img id="perwinkle" class="crayon" src="images/crayons/37-perwinkle.png" />
+      <img id="plum" class="crayon" src="images/crayons/38-plum.png" />
+      <img id="purple-mountain-majesty" class="crayon" src="images/crayons/39-purple-mountain-majesty.png" />
+      <img id="raw-sienna" class="crayon" src="images/crayons/40-raw-sienna.png" />
+      <img id="red" class="crayon" src="images/crayons/41-red.png" />
+      <img id="red-orange" class="crayon" src="images/crayons/42-red-orange.png" />
+      <img id="red-violet" class="crayon" src="images/crayons/43-red-violet.png" />
+      <img id="robins-egg-blue" class="crayon" src="images/crayons/44-robins-egg-blue.png" />
+      <img id="salmon" class="crayon" src="images/crayons/45-salmon.png" />
+      <img id="scarlett" class="crayon" src="images/crayons/46-scarlett.png" />
+      <img id="sea-green" class="crayon" src="images/crayons/47-sea-green.png" />
+      <img id="sepia" class="crayon" src="images/crayons/48-sepia.png" />
+    </div>
+    <div id=row4>
+      <img id="silver" class="crayon" src="images/crayons/49-silver.png" />
+      <img id="sky-blue" class="crayon" src="images/crayons/50-sky-blue.png" />
+      <img id="spring-green" class="crayon" src="images/crayons/51-spring-green.png" />
+      <img id="tan" class="crayon" src="images/crayons/52-tan.png" />
+      <img id="tickle-me-pink" class="crayon" src="images/crayons/53-tickle-me-pink.png" />
+      <img id="timberwolf" class="crayon" src="images/crayons/54-timberwolf.png" />
+      <img id="tumbleweed" class="crayon" src="images/crayons/55-tumbleweed.png" />
+      <img id="turquiose-blue" class="crayon" src="images/crayons/56-turquoise-blue.png" />
+      <img id="violet" class="crayon" src="images/crayons/57-violet.png" />
+      <img id="violet-red" class="crayon" src="images/crayons/58-violet-red.png" />
+      <img id="white" class="crayon" src="images/crayons/59-white.png" />
+      <img id="wild-strawberry" class="crayon" src="images/crayons/60-wild-strawberry.png" />
+      <img id="wisteria" class="crayon" src="images/crayons/61-wisteria.png" />
+      <img id="yellow" class="crayon" src="images/crayons/62-yellow.png" />
+      <img id="yellow-green" class="crayon" src="images/crayons/63-yellow-green.png" />
+      <img id="yellow-orange" class="crayon" src="images/crayons/64-yellow-orange.png" />
+    </div>
+
+    <img src="images/crayon-box.png" id="boxPic" width=75% />
+
+    <div id="colorInfo">
+      <div class="words apricot">
+        <span class="title">apricot</span><br />
+        <span>hex: #FDD9B5 &nbsp; | &nbsp; rgb: 253, 217, 181</span>
+      </div>
+      <div class="words asparagus">
+        <span class="title">asparagus</span><br />
+        <span>hex: #87A9615 &nbsp; | &nbsp; rgb: 135, 169, 107</span>
+      </div>
+      <div class="words bittersweet">
+        <span class="title">bittersweet</span><br />
+        <span>hex: #FD7C6E &nbsp; | &nbsp; rgb: 253, 124, 110</span>
+      </div>
+      <div class="words black">
+        <span class="title">black</span><br />
+        <span>hex: #000000 &nbsp; | &nbsp; rgb: 0, 0, 0</span>
+      </div>
+      <div class="words blue">
+        <span class="title">blue</span><br />
+        <span>hex: #1F75FE &nbsp; | &nbsp; rgb: 31, 117, 254</span>
+      </div>
+      <div class="words blue-green">
+        <span class="title">blue green</span><br />
+        <span>hex: #0D98BA &nbsp; | &nbsp; rgb: 13, 152, 186</span>
+      </div>
+      <div class="words blue-violet">
+        <span class="title">blue violet</span><br />
+        <span>hex: #7366BD &nbsp; | &nbsp; rgb: 115, 102, 189</span>
+      </div>
+      <div class="words brick-red">
+        <span class="title">brick red</span><br />
+        <span>hex: #CB4154 &nbsp; | &nbsp; rgb: 203, 65, 84</span>
+      </div>
+      <div class="words brown">
+        <span class="title">brown</span><br />
+        <span>hex: #B4674D&nbsp; | &nbsp; rgb: 180, 103, 77</span>
+      </div>
+      <div class="words burnt-orange">
+        <span class="title">burnt orange</span><br />
+        <span>hex: #FF7F49 &nbsp; | &nbsp; rgb: 255, 127, 73</span>
+      </div>
+      <div class="words burnt-sienna">
+        <span class="title">burnt sienna</span><br />
+        <span>hex: #EA7E5D &nbsp; | &nbsp; rgb: 234, 126, 93</span>
+      </div>
+      <div class="words cadet-blue">
+        <span class="title">cadet blue</span><br />
+        <span>hex: #B0B7C6 &nbsp; | &nbsp; rgb: 176, 183, 198</span>
+      </div>
+      <div class="words carnation-pink">
+        <span class="title">carnation pink</span><br />
+        <span>hex: #FFAACC &nbsp; | &nbsp; rgb: 255, 170, 204</span>
+      </div>
+      <div class="words cerulen">
+        <span class="title">cerulean</span><br />
+        <span>hex: #1DACD6 &nbsp; | &nbsp; rgb: 29, 172, 214</span>
+      </div>
+      <div class="words chesnut">
+        <span class="title">chesnut</span><br />
+        <span>hex: #BC5D58 &nbsp; | &nbsp; rgb: 188, 93, 88</span>
+      </div>
+      <div class="words cornflower">
+        <span class="title">cornflower</span><br />
+        <span>hex: #9ACEEB &nbsp; | &nbsp; rgb: 154, 206, 235</span>
+      </div>
+      <div class="words dandelion">
+        <span class="title">dandelion</span><br />
+        <span>hex: #FDDB6D &nbsp; | &nbsp; rgb: 253, 219, 109 </span>
+      </div>
+      <div class="words forest-green">
+        <span class="title">forest green</span><br />
+        <span>hex: #6DAE81 &nbsp; | &nbsp; rgb: 109, 174, 129 </span>
+      </div>
+      <div class="words gold">
+        <span class="title">gold</span><br />
+        <span>hex: #E7C697 &nbsp; | &nbsp; rgb: 231, 198, 151</span>
+      </div>
+      <div class="words goldenrod">
+        <span class="title">goldenrod</span><br />
+        <span>hex: #FCD975 &nbsp; | &nbsp; rgb: 252, 217, 117</span>
+      </div>
+      <div class="words granny-smith-apple">
+        <span class="title" style="font-size:1.6em">granny smith apple</span><br />
+        <span>hex: #A8E4A0 &nbsp; | &nbsp; rgb: 168, 228, 160 </span>
+      </div>
+      <div class="words gray">
+        <span class="title">gray</span><br />
+        <span>hex: #95918C &nbsp; | &nbsp; rgb: 149, 145, 140 </span>
+      </div>
+      <div class="words green">
+        <span class="title">green</span><br />
+        <span>hex: #1CAC78 &nbsp; | &nbsp; rgb: 28, 172, 120</span>
+      </div>
+      <div class="words green-yellow">
+        <span class="title">green yellow</span><br />
+        <span>hex: #F0E891 &nbsp; | &nbsp; rgb: 240, 232, 145 </span>
+      </div>
+      <div class="words indigo">
+        <span class="title">indigo</span><br />
+        <span>hex: #5D76CB &nbsp; | &nbsp; rgb: 93, 118, 203 </span>
+      </div>
+      <div class="words lavender">
+        <span class="title">lavender</span><br />
+        <span>hex: #FCB4D5 &nbsp; | &nbsp; rgb: 252, 180, 213 </span>
+      </div>
+      <div class="words macoroni-and-cheese">
+        <span class="title" style="font-size:1.5em">macoroni and cheese</span><br />
+        <span>hex: #FFBD88 &nbsp; | &nbsp; rgb: 255, 189, 136</span>
+      </div>
+      <div class="words magenta">
+        <span class="title">magenta</span><br />
+        <span>hex: #F664AF &nbsp; | &nbsp; rgb: 246, 100, 175</span>
+      </div>
+      <div class="words mahogany">
+        <span class="title">mahogany</span><br />
+        <span>hex: #CD4A4C &nbsp; | &nbsp; rgb: 205, 74, 76 </span>
+      </div>
+      <div class="words mauvelous">
+        <span class="title">mauvelous</span><br />
+        <span>hex: #EF98AA &nbsp; | &nbsp; rgb: 239, 152, 170</span>
+      </div>
+      <div class="words melon">
+        <span class="title">melon</span><br />
+        <span>hex: #FDBCB4 &nbsp; | &nbsp; rgb: 253, 188, 180</span>
+      </div>
+      <div class="words olive-green">
+        <span class="title">olive green</span><br />
+        <span>hex: #BAB86C &nbsp; | &nbsp; rgb: 186, 184, 108 </span>
+      </div>
+      <div class="words orange">
+        <span class="title">orange</span><br />
+        <span>hex: #FF7538 &nbsp; | &nbsp; rgb: 255, 117, 56</span>
+      </div>
+      <div class="words orchid">
+        <span class="title">orchid</span><br />
+        <span>hex: #E6A8D7 &nbsp; | &nbsp; rgb: 230, 168, 215 </span>
+      </div>
+      <div class="words pacific-blue">
+        <span class="title">pacific blue</span><br />
+        <span>hex: #1CA9C9 &nbsp; | &nbsp; rgb: 28, 169, 201</span>
+      </div>
+      <div class="words peach">
+        <span class="title">peach</span><br />
+        <span>hex: #FFCFAB &nbsp; | &nbsp; rgb: 255, 207, 171</span>
+      </div>
+      <div class="words perwinkle">
+        <span class="title">perwinkle</span><br />
+        <span>hex: #C5D0E6 &nbsp; | &nbsp; rgb: 197, 208, 230 </span>
+      </div>
+      <div class="words plum">
+        <span class="title">plum</span><br />
+        <span>hex: #8E4585 &nbsp; | &nbsp; rgb: 142, 69, 133</span>
+      </div>
+      <div class="words purple-mountain-majesty">
+        <span class="title" style="font-size:1.5em">purple mountain majesty</span><br />
+        <span>hex: #9D81BA &nbsp; | &nbsp; rgb: 157, 129, 186</span>
+      </div>
+      <div class="words raw-sienna">
+        <span class="title">raw sienna</span><br />
+        <span>hex: #D68A59 &nbsp; | &nbsp; rgb: 214, 138, 89</span>
+      </div>
+      <div class="words red">
+        <span class="title">red</span><br />
+        <span>hex: #EE204D &nbsp; | &nbsp; rgb: 238, 32 ,77  </span>
+      </div>
+      <div class="words red-orange">
+        <span class="title">red orange</span><br />
+        <span>hex: #FF5349 &nbsp; | &nbsp; rgb: 255, 83, 73</span>
+      </div>
+      <div class="words red-violet">
+        <span class="title">red violet</span><br />
+        <span>hex: #C0448F &nbsp; | &nbsp; rgb: 192, 68, 143</span>
+      </div>
+      <div class="words robins-egg-blue">
+        <span class="title">robin's egg blue</span><br />
+        <span>hex: #1FCECB &nbsp; | &nbsp; rgb: 31, 206, 203</span>
+      </div>
+      <div class="words salmon">
+        <span class="title">salmon</span><br />
+        <span>hex: #FF9BAA &nbsp; | &nbsp; rgb: 255, 155, 170</span>
+      </div>
+      <div class="words scarlett">
+        <span class="title">scarlett</span><br />
+        <span>hex: #FC2847 &nbsp; | &nbsp; rgb: 252, 40, 71</span>
+      </div>
+      <div class="words sea-green">
+        <span class="title">sea green</span><br />
+        <span>hex: #9FE2BF &nbsp; | &nbsp; rgb: 159, 226, 191 </span>
+      </div>
+      <div class="words sepia">
+        <span class="title">sepia</span><br />
+        <span>hex: #A5694F &nbsp; | &nbsp; rgb: 165, 105, 79 </span>
+      </div>
+      <div class="words silver">
+        <span class="title">silver</span><br />
+        <span>hex: #CDC5C2 &nbsp; | &nbsp; rgb: 205, 197, 194 </span>
+      </div>
+      <div class="words sky-blue">
+        <span class="title">sky blue</span><br />
+        <span>hex: #80DAEB &nbsp; | &nbsp; rgb: 128, 218, 235 </span>
+      </div>
+      <div class="words spring-green">
+        <span class="title">spring green</span><br />
+        <span>hex: #ECEABE &nbsp; | &nbsp; rgb: 236, 234, 190 </span>
+      </div>
+      <div class="words tan">
+        <span class="title">tan</span><br />
+        <span>hex: #FAA76C &nbsp; | &nbsp; rgb: 250, 167, 108</span>
+      </div>
+      <div class="words tickle-me-pink">
+        <span class="title">tickle me pink</span><br />
+        <span>hex: #FC89AC &nbsp; | &nbsp; rgb: 252, 137, 172 </span>
+      </div>
+      <div class="words timberwolf">
+        <span class="title">timberwolf</span><br />
+        <span>hex: #DBD7D2 &nbsp; | &nbsp; rgb: 219, 215, 210 </span>
+      </div>
+      <div class="words tumbleweed">
+        <span class="title">tumbleweed</span><br />
+        <span>hex: #DEAA88 &nbsp; | &nbsp; rgb: 222, 170, 136</span>
+      </div>
+      <div class="words turquiose-blue">
+        <span class="title">turquoise blue</span><br />
+        <span>hex: #77DDE7 &nbsp; | &nbsp; rgb: 119, 221, 231</span>
+      </div>
+      <div class="words violet">
+        <span class="title">violet</span><br />
+        <span>hex: #926EAE &nbsp; | &nbsp; rgb: 146, 110, 174</span>
+      </div>
+      <div class="words violet-red">
+        <span class="title">violet red</span><br />
+        <span>hex: #F75394 &nbsp; | &nbsp; rgb: 247, 83, 148 </span>
+      </div>
+      <div class="words white">
+        <span class="title">white</span><br />
+        <span>hex: #FFFFFF &nbsp; | &nbsp; rgb: 255, 255, 255 </span>
+      </div>
+      <div class="words wild-strawberry">
+        <span class="title">wild strawberry</span><br />
+        <span>hex: # &nbsp; | &nbsp; rgb: </span>
+      </div>
+      <div class="words wisteria">
+        <span class="title">wisteria</span><br />
+        <span>hex: # &nbsp; | &nbsp; rgb: </span>
+      </div>
+      <div class="words yellow">
+        <span class="title">yellow</span><br />
+        <span>hex: # &nbsp; | &nbsp; rgb: </span>
+      </div>
+      <div class="words yellow-green">
+        <span class="title">yellow green</span><br />
+        <span>hex: # &nbsp; | &nbsp; rgb: </span>
+      </div>
+      <div class="words yellow-orange">
+        <span class="title">yellow orange</span><br />
+        <span>hex: # &nbsp; | &nbsp; rgb: </span>
+      </div>
+
+
+    </div>
+
+
+  </div>
 
 
 

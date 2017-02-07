@@ -1,0 +1,16 @@
+#container {
+  display: none;
+}
+
+.crayon {
+  width: 10%;
+  transform: rotateZ(90deg);
+  display: block;
+  margin-top: -40%;
+  margin-left: 10%;
+}
+
+.crayon:active {
+  transform: rotateZ(90deg);
+  transform: translateZ(5px);
+}
