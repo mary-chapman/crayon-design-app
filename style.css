@@ -61,3 +61,8 @@
 .words {
   display: none;
 }
+@media only screen and (max-width: 600px) {
+    #colorInfo {
+      font-size: 10pt;
+    }
+}
